@@ -14,6 +14,7 @@ export class LoginComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.usuario = new Usuario("Claudio","Moreno","claumoremal@gmail.com","Hola1234");
   }
 
 }

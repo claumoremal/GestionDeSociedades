@@ -22,13 +22,9 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "assets/css/sb-admin-2.min.css",
-              "assets/vendor/fontawesome-free/css/all.min.css"               
+            "styles": [             
             ],
-            "scripts": [
-              "assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
-             
+            "scripts": [           
             ]
           },
           "configurations": {
