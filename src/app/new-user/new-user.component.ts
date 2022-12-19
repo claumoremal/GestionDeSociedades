@@ -12,8 +12,16 @@ export class NewUserComponent implements OnInit {
   public arrayUsuarios:Array<Usuario>;
   
   constructor() {
-    this.usuario = new Usuario( )
-   }
+    this.usuario = new Usuario("","","","");
+    this.arrayUsuarios = [
+      new Usuario("","","",""),
+    ]
+  }
+
+  submitUsuario(){
+    this.arrayUsuarios.push(this.usuario);
+    console.log(this.arrayUsuarios);
+  }
 
   ngOnInit() {
   }

@@ -9,15 +9,15 @@ import { NewUserComponent } from '../new-user/new-user.component';
 })
 export class ListadoUsuariosComponent implements OnInit {
 
- /*  public Usuario:Usuario;
-  public usuarios: Array<Usuario>; */
+  public Usuario:Usuario;
+  public usuarios: Array<Usuario>;
 
   constructor() {
 
-    /* this.usuarios = [
-      new Usuario(0, "Claudio", "Moreno", "claumoremal@gmail.com", "Hola1234"),
-      new Usuario(1, "pepe", "fuentes", "pepe@gmail.com", "Hola1234"),
-    ] */
+    this.usuarios = [
+      new Usuario(/* 0, */ "Claudio", "Moreno", "claumoremal@gmail.com", "Hola1234"),
+      new Usuario(/* 1, */ "pepe", "fuentes", "pepe@gmail.com", "Hola1234"),
+    ]
   }
   ngOnInit() {
   }
