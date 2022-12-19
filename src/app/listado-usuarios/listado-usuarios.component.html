@@ -1,0 +1,49 @@
+<div id="content-wrapper" class="d-flex flex-column">
+
+  <!-- Main Content -->
+  <div id="content">
+    <!-- Page Heading -->
+    <h1 class="h3 mb-4 text-gray-800">Usuarios</h1>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Mail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let Usuario of usuarios">
+                <th scope="row">{{Usuario.id+1}}</th>
+                <td>{{Usuario.nombre}}</td>
+                <td>{{Usuario.apellido}}</td>
+                <td>{{Usuario.email}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container-fluid -->
+
+
+  <!-- End of Main Content -->
+
+  <!-- Footer -->
+  <footer class="sticky-footer bg-white">
+    <div class="container my-auto">
+      <div class="copyright text-center my-auto">
+        <span>Copyright &copy; BarinIT 2022</span>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+</div>
